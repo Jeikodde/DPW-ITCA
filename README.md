@@ -12,7 +12,7 @@ To start development go to:
 ## Steps to create a branch
 Pull changes from main
 ```bash
-git pull origin develop
+git pull origin main
 ```
 
 Create a new branch following the next example
