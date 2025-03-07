@@ -26,6 +26,9 @@ body {
 /* PAGE 2 */
 .bg-page2 {
   background-image: url('../images/image.png');
+}
+
+.container-info {
   display: flex;
   justify-content: center;
 }
