@@ -22,8 +22,8 @@ git checkout -b "semana1-ejercicio1"
 
 Create your commit
 ```bash
-git comit -m "Creando estructura de la pagina"
-git comit -m "Añadiendo estilos a la pagina"
+git commit -m "Creando estructura de la pagina"
+git commit -m "Añadiendo estilos a la pagina"
 ```
 
 Push to your branch
