@@ -105,3 +105,16 @@ footer {
 footer p {
     font-size: 1em;
 }
+
+.back-button {
+    display: inline-block;
+    background-color: #3c63c5;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    position: absolute;
+    right: 20px;
+  }
+

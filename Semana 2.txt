@@ -1,0 +1,13 @@
+## Integrantes
+- Juan Antonio Martínez Nieto  - **_034623_**
+- Oscar Moises Perez Tobar - **_080223_**
+- Vilic Ayala Sandoval - **_021623_**
+
+
+##GitHub Repositorio 
+- git@github.com:Jeikodde/DPW-ITCA.git
+- https://github.com/Jeikodde/DPW-ITCA
+
+
+## Link de Produccción
+- https://jeikodde.github.io/DPW-ITCA/
