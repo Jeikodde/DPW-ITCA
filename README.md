@@ -7,12 +7,12 @@
 
 ## Deployment Server
 To start development go to:
-[DPW-ITCA-Proyect](https://jeikodde.github.io/DPW-ITCA/)
+[DPW-ITCA-Proyect](https://dpw-itca.vercel.app/index.html)
 
 ## Steps to create a branch
 Pull changes from main
 ```bash
-git pull origin develop
+git pull origin main
 ```
 
 Create a new branch following the next example
@@ -22,8 +22,8 @@ git checkout -b "semana1-ejercicio1"
 
 Create your commit
 ```bash
-git comit -m "Creando estructura de la pagina"
-git comit -m "Añadiendo estilos a la pagina"
+git commit -m "Creando estructura de la pagina"
+git commit -m "Añadiendo estilos a la pagina"
 ```
 
 Push to your branch
