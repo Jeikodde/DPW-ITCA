@@ -7,7 +7,7 @@
 
 ## Deployment Server
 To start development go to:
-[DPW-ITCA-Proyect](https://jeikodde.github.io/DPW-ITCA/)
+[DPW-ITCA-Proyect](https://dpw-itca.vercel.app/index.html)
 
 ## Steps to create a branch
 Pull changes from main
