@@ -1,3 +1,39 @@
 body {
   font-family: sans-serif;
 }
+
+.container {
+  background-color: #18181a;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+}
+
+/* CARDS */
+.cards {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: baseline;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 300px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #252527;
+}
+
+.card__title {
+  margin-top: 30px;
+}
+
+.exercises__link {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
