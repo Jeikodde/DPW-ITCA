@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            width: 60%;
+            margin: auto;
+            font-family: arial;
+            border-color: white;
+        }
+
+        th, td{
+            border: 1px solid;
+            padding: 12px;
+            text-align: center;
+        }
+ 
+    </style>
+    <title>Etiquetas en tablas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="container">
+    <header>
+        <a href="../../index.html" class="back-button">Volver al inicio</a>
+        <h1 class="title">Pagina web haciendo uso de las etiquetas de tablas</h1>
+    </header>
+
+    <table>
+        <caption>Etiqueta caption</caption>
+        <tr>
+            <th colspan="5">Escuela Especializada en Ingeniera ITCA-FEPADE</th>
+        </tr>
+        <tr>
+            <td><br>Apellido</td>
+            <td><br>Nombre</td>
+            <td colspan="3"><b>Notas</b></td>
+        </tr>
+        <tr>
+            <td>Hernandez</td>
+            <td>Juan</td>
+            <td>7.5</td>
+            <td>9.5</td>
+            <td>2.30</td>
+        </tr>
+        <tr>
+            <td>Perez</td>
+            <td>Miguel</td>
+            <td>2</td>
+            <td>5</td>
+            <td>1.5</td>
+        </tr>
+        <tr>
+            <td colspan="3">Informacion adicional de los estudiantes</td>
+            <td colspan="3">Comentarios</td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2">Explicacion acerca de la actitud de los estudiantes</td>
+            <td colspan="2">Comentario 1: Explicacion acerca de la puntualidad del alumno</td>
+        </tr>
+        <tr>
+            <td colspan="2">Comentario 2: Informacion de la responsabilidad del alumno</td>
+        </tr>
+
+    </table>
+</body>
+</html>
