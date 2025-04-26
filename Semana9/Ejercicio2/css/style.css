@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cielo {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  animation: prueba 3s infinite linear;
+}
+
+.background__image {
+  width: 400px;
+  height: 400px;
+}
+
+.background__image--abajo {
+  margin-bottom: -30px;
+}
+
+.camino {
+  width: 100%;
+  height: 30%;
+  padding: 30px 0;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carro {
+  width: 500px;
+  height: 50%;
+  background-color: blue;
+}
+
+.ruedas {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rueda {
+  width: 80px;
+  height: 80px;
+  animation: girar-ruedas 5s infinite linear;
+}
+
+.rin {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ANIMACIONES */
+@keyframes prueba {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes girar-ruedas {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -37,13 +37,3 @@ body {
   display: block;
   margin-bottom: 5px;
 }
-
-.back-button {
-  display: inline-block;
-  background-color: #3c63c5;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 16px;
-}
