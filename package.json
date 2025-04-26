@@ -1,0 +1,15 @@
+{
+  "name": "dpw-itca",
+  "version": "1.0.0",
+  "description": "- Juan Antonio Martínez Nieto  - **_034623_**\r - Oscar Moises Perez Tobar - **_080223_**\r - Vilic Ayala Sandoval - **_021623_**",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "3.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
