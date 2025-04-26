@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <style>
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+        input[type="text"],input[type="date"], select{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            
+        }
+        input[type="radio"]{
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            
+        }
+    </style>
+    <title>Formulario 3</title>
+</head>
+<body class="container">
+    <header>
+        <a href="index.html" class="back-button">Volver atras</a>
+        <h1 class="title">Registro de un usuario</h1>
+    </header>
+    
+    <form action="#" method="get">
+        Apellido: <br><br>
+        <input type="text" name="apellido" id="txtApellido" placeholder="Apellido" required>
+        <br><br>
+        Nombre: <br><br>
+        <input type="text" name="nombre" id="txtNombre" placeholder="Nombre" required>
+        <br><br>
+        Genero:
+        <br><br>
+        Mujer: <input type="radio" name="genero" id="btnM" value="M" required >  
+        Hombre: <input type="radio" name="genero" id="btnH" value="H">
+        <br><br>
+        Ocupacion: <br><br>
+         <select name="ocupacion" id="ocupacion" required>
+            <option value="estudiante">Estudiante</option>
+            <option value="ingeniero">Ingeniero</option>
+            <option value="profesor">Profesor</option>
+            <option value="jubilado">Jubilado</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+        Comentarios:
+        <textarea name="comentarios" id="comentarios" cols="30" rows="5" placeholder="Comentarios"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar" class="back-button">
+    </form>
+</body>
+</html>
