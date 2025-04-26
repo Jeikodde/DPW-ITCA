@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <style>
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+        input[type="text"],input[type="date"], select,input[type="number"],input[type="tel"],input[type="file"]{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            
+        }
+        input[type="radio"]{
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            
+        }
+    </style>
+    <title>Captura de datos</title>
+</head>
+<body class="container">
+    <header>
+        <a href="../../index.html" class="back-button">Volver al inicio</a>
+        <h1 class="title">Captura de datos</h1>
+    </header>
+    
+    <form action="#" method="get">
+        Primer Nombre: <br><br>
+        <input type="text" name="nombre" id="txtNombre" placeholder="Juan" required>
+        Segundo Nombre: <br><br>
+        <input type="text" name="nombre2" id="txtNombre2" placeholder="Antonio" required>
+        Primer Apellido: <br><br>
+        <input type="text" name="apellido" id="txtApellido" placeholder="Martinez" required>
+        Segundo Apellido: <br><br>
+        <input type="text" name="apellido2" id="txtApellido2" placeholder="Nieto" required>
+        Genero:
+        <br><br>
+        Mujer: <input type="radio" name="genero" id="btnM" value="M" required >  
+        Hombre: <input type="radio" name="genero" id="btnH" value="H" checked>
+        <br><br>
+        Direccion: <br><br>
+        <input type="text" name="direccion" id="txtDir" required placeholder="Olocuilta">
+        Numero de telefono: <br><br>
+        <input type="tel" name="telefono" id="txtTel" required placeholder="12345678">
+        Edad: <br><br>
+        <input type="number" name="edad" id="txtEdad" required min="18" placeholder="18">
+        DUI: <br><br>
+        <input type="text" name="dui" id="txtDUI" required placeholder="012345678">
+        NIT: <br><br>
+        <input type="text" name="nit" id="txtNIT" required placeholder="1234567890">
+        ISSS: <br><br>
+        <input type="text" name="isss" id="txtISSS" required placeholder="1234567890">
+        Salario <br><br>
+        <input type="number" name="salario" id="txtSalario" required placeholder="700">
+        Color Favorito: <br><br>
+         <select name="color" id="color" required>
+            <option value="rojo">Rojo</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="negro">Negro</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+        <input type="file" name="foto" id="foto">
+        <br>
+        Preferencias: <br><br>
+         <select name="pref" id="pref" required>
+            <option value="deporte">Deportes</option>
+            <option value="musica">Musica</option>
+            <option value="cine">Cine</option>
+            <option value="viajar">Viajar</option>
+            <option value="otro">Otro</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" value="Enviar" class="back-button">
+    </form>
+</body>
+</html>
