@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
+/* BUTTON STYLES */
+.back-button {
+  display: inline-block;
+  background-color: #3c63c5;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+}
