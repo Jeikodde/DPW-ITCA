@@ -1,0 +1,18 @@
+.fixed-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  background-color: lightcoral;
+  padding: 20px;
+  border: 2px solid red;
+  z-index: 999;
+}
+
+.content {
+  width: 80%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
