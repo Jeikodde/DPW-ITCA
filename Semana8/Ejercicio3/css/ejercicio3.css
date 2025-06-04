@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid;
+  position: relative;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #0cc578;
+  position: absolute;
+}
+
+.box2 {
+  top: 0;
+  left: 150px;
+}
+
+.box3 {
+  top: 0;
+  left: 300px;
+}
+
+.box4 {
+  top: 150px;
+}
+
+.box5 {
+  top: 150px;
+  left: 150px;
+}
+
+.box6 {
+  top: 150px;
+  left: 300px;
+}
+
+.box7 {
+  top: 300px;
+}
+
+.box8 {
+  top: 300px;
+  left: 150px;
+}
+
+.box9 {
+  top: 300px;
+  left: 300px;
+}
